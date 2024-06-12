@@ -22,7 +22,7 @@ namespace Notepad_Agile_Final
         {
             //richTextBox1.Clear(); this will claer the text that is inside the Text Box 
             Form1 form1 = new Form1();
-            form1.ShowDialog();
+            form1.Show();
             this.Hide();//this will open up another Text Box for the User to wrie inside 
         }
 
