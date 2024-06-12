@@ -35,7 +35,7 @@ namespace Notepad_Agile_Final
         private void saveToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveDialog = new SaveFileDialog();
-            saveDialog.ShowDialog();//this will save the information entered 
+            saveDialog.ShowDialog();//this will save the information entered in
         }
 
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
